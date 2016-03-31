@@ -1,0 +1,269 @@
+.reveal h1 {
+	text-shadow: 0 2px 4px rgba(0,0,0,.5),
+				 0 -1px 3px rgba(0,0,0,.5);
+}
+
+.reveal pre {
+	font-size: 0.7em !important;
+}
+
+.slide-background {
+	background-position: center !important;
+}
+
+.mainpage .slide-background {
+	background: url(../assets/i/mainpage-bg.jpg);
+	background-repeat: no-repeat;
+}
+
+.mainpage h1 {
+	color: #fff !important;
+}
+
+.mainpage h3 {
+	margin-top: 30px !important;
+	color: #fff !important;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5),
+				 0 -1px 1px rgba(0,0,0,.5);
+}
+
+.mainpage body::before {
+	content: "";
+	position: absolute;
+	right: 5%;
+	top: 10%;
+	z-index: 1;
+	width: 288px;
+	height: 108px;
+	background: url(../assets/i/epam-logo_white.png) center no-repeat;
+	background-size: cover;
+}
+
+.mainpage body::after {
+	content: "1 February, 2016";
+	position: absolute;
+	right: 7%;
+	bottom: 5%;
+	font-family: "Oswald Regular", sans-serif;
+	font-size: 1.25em;
+	color: #fff;
+	white-space: nowrap;
+}
+
+.intro h3 {
+	color: #39c2d7;
+}
+
+.table-code-example pre {
+	font-size: .5em !important;
+}
+
+.old-site .slide-background {
+	background: url(../assets/i/oldest-site.jpg);
+	background-repeat: no-repeat;
+}
+
+.mother-of-god .slide-background {
+	background: url(../assets/i/mother-of-god.png);
+	background-repeat: no-repeat;
+	background-size: auto 90%;
+}
+
+.chuck-norris-approves .slide-background {
+	background: url(../assets/i/norris.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.spec-support .slide-background {
+	background-color: #40382b !important;
+	background-repeat: no-repeat !important;
+}
+
+.tables-for-tables-once-again h2 {
+	color: #fff !important;
+}
+
+.tables-for-tables-once-again .slide-background {
+	background: url(../assets/i/table-data.png);
+}
+
+.tables-for-tables-once-again .slide-background::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,.7);
+}
+
+.tables-for-tables-once-again .progress span {
+	background: #fff;
+}
+
+.tables-for-tables-once-again .controls {
+	z-index: 200;
+}
+
+.tables-for-tables-once-again .controls .navigate-left {
+	border-right-color: #fff !important;
+	opacity: 1;
+}
+
+.tables-for-tables-once-again .controls .navigate-right {
+	border-left-color: #fff !important;
+	opacity: 1;
+}
+
+.div-markup-example pre {
+	font-size: .5em !important;
+}
+
+.conclusion {
+	margin-top: 2.5em !important;
+}
+.conclusion div {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.conclusion-good div {
+	color: #a3c644;
+}
+
+.conclusion-bad div {
+	color: #b22746;
+}
+
+.float-question strong {
+	color: #39c2d7;
+}
+
+.entities-container {
+	margin-top: 2em !important;
+}
+
+.entities-container div {
+	text-align: left;
+}
+
+.attrs-container div:last-child {
+	margin-top: 1em !important;
+}
+
+.evolution-of-clear h3 span {
+	color: #39c2d7;
+}
+
+.oops .container,
+.oops-fix .container {
+	box-sizing: border-box;
+	width: 90%;
+	margin: 0 auto 100px !important;
+	padding: 4px;
+	border: 2px solid black;
+	background: #a3c644;
+}
+
+.oops-fix .container {
+	margin-bottom: 40px !important;
+}
+
+.oops-fix .container::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.oops .container .floated,
+.oops-fix .container .floated {
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin-right: 10px;
+	border: 2px solid #000;
+	background: #b22746;
+	line-height: 200px;
+	color: #fff;
+}
+
+.oops .container .non-floated,
+.oops-fix .container .non-floated {
+	text-align: left;
+}
+
+.oops pre,
+.oops-fix pre {
+	font-size: .5em !important;
+}
+
+.wat .slide-background {
+	background: url(../assets/i/wat.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.mark {
+	color: #666;
+	font-size: .6em !important;
+}
+
+.context-formatting h2 {
+	/*color: #39c2d7;*/
+}
+
+.clear-example h3 {
+	margin-bottom: 60px !important;
+	text-transform: none !important;
+}
+
+.smth-new h2 {
+	color: #fff;
+}
+
+.smth-new .slide-background {
+	background: #39c2d7;
+}
+
+.smth-new .progress span {
+	background: #fff;
+}
+
+.smth-new .controls .navigate-left {
+	border-right-color: #fff !important;
+	opacity: 1;
+}
+
+.smth-new .controls .navigate-right {
+	border-left-color: #fff !important;
+	opacity: 1;
+}
+
+.future .slide-background {
+	background: url(../assets/i/toy-story.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.thank-you .author {
+	width: 60%;
+	margin: 60px auto 0;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.thank-you .author-avatar {
+	display: inline-block;
+	width: 200px;
+	margin-right: 60px;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+
+.thank-you .author-main {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+}
